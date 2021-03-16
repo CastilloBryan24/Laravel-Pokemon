@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PokemonController::class, 'index']);
+Route::get('/formulaire', [PokemonController::class, 'create']);
+Route::get('/pokemon-show/{id}', [PokemonController::class, 'show']);
+Route::post('/pokemon-store', [PokemonController::class, 'store']);

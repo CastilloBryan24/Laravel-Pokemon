@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ajouter un pokemon</a>
+          <a class="nav-link" href="/formulaire">Ajouter un pokemon</a>
         </li>
       </ul>
     </div>

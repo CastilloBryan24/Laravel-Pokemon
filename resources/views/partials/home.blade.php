@@ -12,8 +12,8 @@
             <tr>
                 <th scope="row">{{$item->id}}</th>
                 <td>{{$item->name}}</td>
-                <td>{{$item->type}}</td>
-                <td><a href="" class="btn btn-primary">Show</a></td>
+                <td>{{$item->type_id}}</td>
+                <td><a href="/pokemon-show/{{$item->id}}" class="btn btn-primary">Show</a></td>
             </tr>
         @endforeach
     </tbody>

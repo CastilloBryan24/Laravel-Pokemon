@@ -10,6 +10,6 @@ class Type extends Model
     use HasFactory;
     public function pokemons()
     {
-        return $this->belongsTo(Pokemon::class);
+        return $this->belongsTo(Pokemon::class, 'type_id');
     }
 }

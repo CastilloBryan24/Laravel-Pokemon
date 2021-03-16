@@ -2,15 +2,15 @@
     @csrf
     <div class="form-group">
       <label for="exampleInputEmail1">Photo</label>
-    <input type="file" name="src" value="{{$edit->src}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="file" name="src" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="form-group">
       <label for="exampleInputEmail1">Nom</label>
-      <input type="text" name="name" value="{{$edit->name}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="form-group">
       <label for="exampleInputEmail1">Niveau</label>
-      <input type="number" name="level" value="{{$edit->level}}" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="number" name="level" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     </div>
     <div class="form-group">
         <label for="exampleInputEmail1">Type</label>
